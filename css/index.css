@@ -1,0 +1,80 @@
+html {
+	box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Inter', sans-serif;
+  margin: 0px auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1170px;
+}
+
+h3 {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  width: auto;
+  background-color: #fff;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+button {
+  padding: 0px 15px;
+  font-weight: 500;
+  background-color: #3579E4;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #3579E4;
+}
+
+.findStudentForm,
+.addStudentForm {
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  border-radius: 16px;
+  width: calc(100% - 40px);
+
+}
+
+.filtersForm,
+.newStudentInfoForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #E7E7E7;
+  width: 100%;
+  border-radius: 16px;
+}
+
+thead {
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #E7E7E7; 
+  background-color: #F5F5F5;
+}
+
+th, td {
+  border: 1px solid #E7E7E7; 
+  padding: 6px 10px;
+}
+
+td {
+  font-size: 14px;
+}
